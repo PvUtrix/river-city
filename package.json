@@ -1,0 +1,27 @@
+{
+  "name": "river-city",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@11.18.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "data": "cd pipeline && ../.venv/bin/python fetch_terrain.py && ../.venv/bin/python fetch_osm.py && ../.venv/bin/python build_layers.py",
+    "print": "tsx scripts/print.ts",
+    "artifact": "tsx scripts/artifact-page.ts"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/pngjs": "^6.0.5",
+    "@types/three": "^0.186.0",
+    "pngjs": "^7.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

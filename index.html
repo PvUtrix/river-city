@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>River City · Beloretsk</title>
+    <meta name="description" content="An imaginary plan for Beloretsk in the Southern Urals: a city that gives its rivers room, lets the forest in and grows inward." />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2312231d'/%3E%3Cpath d='M4 21 11 11l5 6 4-4 8 8' fill='none' stroke='%23f2c48d' stroke-width='2.4' stroke-linejoin='round'/%3E%3Cpath d='M5 25c4-2 7 2 11 0s7 2 11 0' fill='none' stroke='%233fb6a8' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap&subset=cyrillic" rel="stylesheet" />
+  </head>
+  <body>
+    <canvas id="scene" aria-label="3D model of the Beloretsk valley"></canvas>
+    <div id="labels"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#intro">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 21 11 11l5 6 4-4 8 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" /><path d="M5 26c4-2 7 2 11 0s7 2 11 0" fill="none" stroke="var(--river)" stroke-width="2.4" stroke-linecap="round" /></svg>
+        <span><strong id="brand-name">River City</strong><span id="brand-place">Beloretsk</span></span>
+      </a>
+      <div class="mode" role="group">
+        <button id="mode-today" type="button" aria-pressed="false">Today</button>
+        <button id="mode-plan" type="button" aria-pressed="true">River City</button>
+      </div>
+      <div class="topbar__actions">
+        <button id="go-print" class="ghost" type="button">3D print</button>
+        <button id="lang" class="ghost" type="button">RU</button>
+      </div>
+    </header>
+
+    <main id="story"></main>
+
+    <aside class="legend" aria-labelledby="legend-title">
+      <details open>
+        <summary id="legend-title">River City plan</summary>
+        <ul id="legend-list"></ul>
+      </details>
+    </aside>
+
+    <div class="map-tools">
+      <button id="explore" type="button" aria-pressed="false">Explore</button>
+      <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+      <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+    </div>
+
+    <div id="tooltip" role="status" hidden></div>
+    <div id="loader"><p class="loader__title">River City</p><p id="loader-text">Loading the valley</p></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

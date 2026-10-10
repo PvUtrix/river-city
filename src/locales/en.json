@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "River City · Beloretsk",
+    "description": "An imaginary plan for Beloretsk in the Southern Urals: a city that gives its rivers room, lets the forest in and grows inward."
+  },
+  "ui": {
+    "brand": "River City",
+    "place": "Beloretsk",
+    "today": "Today",
+    "plan": "River City",
+    "print": "3D print",
+    "langSwitch": "RU",
+    "langSwitchLabel": "Читать по-русски",
+    "loading": "Loading the valley",
+    "scroll": "Scroll to walk through the plan",
+    "elevation": "{m} m above sea level",
+    "legend": "River City plan",
+    "explore": "Explore",
+    "backToStory": "Back to story",
+    "metre": "m"
+  },
+  "zones": {
+    "terrain": "Open ground",
+    "forest": "Protected forest",
+    "meadow": "Meadows and food belt",
+    "riverRoom": "Room for the river",
+    "greenFinger": "Green finger",
+    "neighbourhood": "Compact neighbourhood",
+    "adaptiveEdge": "Adaptive edge: built floodplain",
+    "making": "Making district",
+    "remediation": "Healing wetland",
+    "water": "Water",
+    "building": "Building",
+    "spine": "Calm street and transit spine",
+    "trail": "Trail",
+    "street": "Street",
+    "promenade": "Riverside promenade"
+  },
+  "chapters": {
+    "intro": {
+      "kicker": "An imaginary plan · Beloretsk, Southern Urals",
+      "title": "River City",
+      "body": [
+        "What if Beloretsk were planned around its rivers and mountains rather than in spite of them? A town that gives the Belaya and the Nura room, lets the forest walk in along every stream, and grows inward instead of outward.",
+        "Everything you see is real ground: SRTM terrain and today's OpenStreetMap. The plan laid over it is a vision, not an official proposal."
+      ]
+    },
+    "place": {
+      "kicker": "The place",
+      "title": "A town the river made",
+      "body": [
+        "Beloretsk began in 1762 as an ironworks on the Belaya. A dam turned the river into the works' engine, and the pond it made is still the heart of the town. A few kilometres below the dam, the Nura joins the Belaya.",
+        "About {population} people live in a valley around 500 m above sea level, ringed by forested ridges. Kirel ({kirel} m) and Malinovaya ({malinovaya} m) rise to the north-west, and Yamantau, the highest peak of the Southern Urals at 1,640 m, stands about 37 km beyond them.",
+        "Forest covers {forestPct}% of this {modelW} × {modelH} km model; the town takes about {urbanPct}%. Most of what the plan changes lies right where the rivers run."
+      ]
+    },
+    "river": {
+      "kicker": "Principle 1",
+      "title": "Room for the river",
+      "body": [
+        "We read the valley floor from the terrain itself: all ground less than {hand} m above the Belaya or the Nura and within {reach} km of it. In any valley, that is the low ground water reaches first.",
+        "{riverRoom} ha of it is unbuilt. In River City it goes back to the river: flood meadows, wetlands and riverside woods that hold spring meltwater, clean it, and become the town's largest park.",
+        "{adaptive} ha is already built on, striped on the map. Nothing is torn down. Homes and streets adapt instead, with raised ground floors, yards that soak up water, and streets that can carry it for a few days a year."
+      ]
+    },
+    "fingers": {
+      "kicker": "Principle 2",
+      "title": "Green fingers",
+      "body": [
+        "Dozens of streams run off the ridges into town. Where they cross it today, they mostly run along fences and through back yards.",
+        "River City gives each one a living corridor about 90 m wide: {fingerKm} km of new green fingers. The forest reaches the centre, and people, birds and small wildlife can follow the water down to the Belaya.",
+        "Homes within {walk} m of green space or water: {homesToday}% today, {homesPlan}% in River City."
+      ]
+    },
+    "inward": {
+      "kicker": "Principle 3",
+      "title": "Grow inward, not outward",
+      "body": [
+        "Not one new hectare of building goes into the forest or the floodplain. The town's {neighbourhood} ha of neighbourhoods grow from within: courtyards, corner shops, and a school and a clinic within a 15-minute walk of every door.",
+        "The main streets become a calm spine, with trees, wide pavements, cycle lanes and a tram or electric bus joining the old town, the pond and the railway station."
+      ]
+    },
+    "pond": {
+      "kicker": "Principle 4",
+      "title": "The pond and the works",
+      "body": [
+        "The 1762 pond becomes the city's living room. A continuous promenade circles it and follows both rivers through town: {promenade} ha of shore given back to people.",
+        "Industry stays, because making things is who Beloretsk is. Its {making} ha of works and yards grow cleaner and open up at their edges, and the oldest halls tell two and a half centuries of iron and steel."
+      ]
+    },
+    "heal": {
+      "kicker": "Principle 5",
+      "title": "Heal the land",
+      "body": [
+        "Sludge ponds, landfills and quarries cover {remediation} ha around the town. In River City they become constructed wetlands and reed beds that clean water before it reaches the Belaya, and slowly turn back into living ground."
+      ]
+    },
+    "ring": {
+      "kicker": "Principle 6",
+      "title": "The mountain ring",
+      "body": [
+        "The ridges are the city's other half. The forest, {forest} ha in this model, stays protected.",
+        "The tracks and paths that already climb the ridges join into a single ring trail, from the riverbank to the summits of Malinovaya and Kirel, with shelters, viewpoints and winter ski tracks along it."
+      ]
+    },
+    "numbers": {
+      "kicker": "In numbers",
+      "title": "What changes",
+      "stats": {
+        "riverRoom": "hectares returned to the river",
+        "fingerKm": "km of new green corridors",
+        "homes": "of homes within {walk} m of green or water, up from {homesToday}%",
+        "zero": "hectares of new building in forest or floodplain"
+      },
+      "note": "Every figure is computed from this model (OpenStreetMap and SRTM terrain) and is an estimate, not a survey."
+    },
+    "print": {
+      "kicker": "Hold it in your hands",
+      "title": "Print the valley",
+      "body": [
+        "The model on screen can be printed. Choose a size and how much to stretch the mountains vertically. Rivers and the pond are cut into the surface, so they can be painted or inlaid in blue."
+      ]
+    },
+    "about": {
+      "kicker": "About",
+      "title": "Why Beloretsk",
+      "body": [
+        "River City is an imaginary plan for Beloretsk, the town where its author was born. It asks what a small industrial town in the mountains could become if nature set the plan.",
+        "Terrain: SRTM, via Mapzen Terrain Tiles on AWS Open Data. Map data © OpenStreetMap contributors, ODbL."
+      ]
+    }
+  },
+  "printer": {
+    "width": "Width",
+    "exaggeration": "Mountain stretch",
+    "base": "Base",
+    "engrave": "River depth",
+    "detail": "Detail",
+    "scale": "Scale 1:{n}",
+    "size": "{w} × {h} mm, up to {z} mm tall",
+    "cost": "{tris} triangles · {mb} MB",
+    "download": "Download STL",
+    "building": "Building the model…",
+    "tiles": "Bigger than your printer's bed? The project's print tool splits the model into tiles that fit together exactly.",
+    "downloadZip": "Download STL (zip)",
+    "unavailable": "Saving files is not available in this view."
+  }
+}

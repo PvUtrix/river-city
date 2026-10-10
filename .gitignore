@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.venv/
+pipeline/.cache/
+__pycache__/
+/print/
+.DS_Store
+/artifact/
