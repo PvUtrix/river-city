@@ -74,6 +74,7 @@ normals; rivers and the pond are cut into the surface for paint or a blue inlay.
 
 ## Sources and licences
 
+- Code: [MIT](LICENSE).
 - Terrain: SRTM, via [Mapzen Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) on AWS Open Data.
 - Map data © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, ODbL 1.0.
   Everything in `public/data/` except `terrain.png` is derived from OSM and is
